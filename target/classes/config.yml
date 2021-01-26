@@ -1,0 +1,9 @@
+pets:
+  pikachu:
+    actions:
+      onspawn:
+        - "potionEffect NIGHT_VISION 1"
+        - "command gamemode creative %player%"
+      onremove:
+        - "potionEffect NIGHT_VISION 1"
+        - "command gamemode survival %player%"

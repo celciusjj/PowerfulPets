@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="PowerfulPets:jar">
+    <output-path>$PROJECT_DIR$/../../server de prueba/plugins</output-path>
+    <root id="archive" name="PowerfulPets.jar">
+      <element id="module-output" name="PowerfulPets" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/spigot-1.16.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/MiniaturePets.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
