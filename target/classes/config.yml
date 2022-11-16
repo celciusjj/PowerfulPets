@@ -1,9 +1,11 @@
+disabled_worlds:
+  - "dungeons"
 pets:
-  pikachu:
+  yeti:
     actions:
       onspawn:
         - "potionEffect NIGHT_VISION 1"
-        - "command gamemode creative %player%"
+        - "attribute vitalidad 1"
       onremove:
         - "potionEffect NIGHT_VISION 1"
-        - "command gamemode survival %player%"
+        - "attribute vitalidad -1"

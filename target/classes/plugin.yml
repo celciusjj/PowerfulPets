@@ -1,7 +1,8 @@
 main: com.celcius.PowerfulPets
-version: 1
+version: 2.0
 name: PowerfulPets
 api-version: 1.16
+softdepend: [MMOCore, MiniaturePets, MCPets]
 commands:
   powerfulpets:
     description: Comando de origen
